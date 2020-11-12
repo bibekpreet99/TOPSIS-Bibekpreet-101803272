@@ -1,11 +1,12 @@
 from distutils.core import setup
 
 setup(
-  name = 'topsis_Bibekpreet_101803272', 
-  packages = ['topsis_Bibekpreet_101803272'], 
+  name = 'topsis-Bibekpreet-101803272', 
+  packages = ['topsis-Bibekpreet-101803272'], 
   version = '1.0.0',  
   license='MIT', 
   description = 'Topsis score calculator',
+  long_description=open("README.txt").read(),
   author = 'Bibekpreet Singh',               
   author_email = 'bsingh3_be18@thapar.edu', 
   url = 'https://https://github.com/bibekpreet99/TOPSIS-Bibekpreet-101803272',
