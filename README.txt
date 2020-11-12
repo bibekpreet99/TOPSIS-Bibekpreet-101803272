@@ -1,0 +1,1 @@
+This is a package to find topsis score and rank of a dataframe with only numerical values.
