@@ -13,6 +13,7 @@ setup(
   keywords = ['topsis', 'thapar', 'rank', 'topsis score'], 
   install_requires=["pandas"],
   classifiers=[
+    'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers', 
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
