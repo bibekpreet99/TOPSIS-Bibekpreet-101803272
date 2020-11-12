@@ -3,14 +3,14 @@ from distutils.core import setup
 setup(
   name = 'TOPSIS_Bibekpreet_101803272', 
   packages = ['TOPSIS_Bibekpreet_101803272'], 
-  version = '1.0.1',  
+  version = '1.0.2',  
   license='MIT', 
   description = 'Topsis score calculator',
   long_description=open("README.txt").read(),
   author = 'Bibekpreet Singh',               
   author_email = 'bsingh3_be18@thapar.edu', 
   url = 'https://https://github.com/bibekpreet99/TOPSIS-Bibekpreet-101803272',
-  download_url = 'https://github.com/bibekpreet99/TOPSIS-Bibekpreet-101803272/archive/v_1.0.1.tar.gz', 
+  download_url = 'https://github.com/bibekpreet99/TOPSIS-Bibekpreet-101803272/archive/v_1.0.2.tar.gz', 
   keywords = ['topsis', 'thapar', 'rank', 'topsis score'], 
   install_requires=["pandas"],
   classifiers=[
