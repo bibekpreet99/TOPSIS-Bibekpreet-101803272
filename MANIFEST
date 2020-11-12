@@ -2,5 +2,5 @@
 README.txt
 setup.cfg
 setup.py
-TOPSIS-Bibekpreet-101803272\Topsis.py
-TOPSIS-Bibekpreet-101803272\__init__.py
+topsis\__init__.py
+topsis\topsis.py
