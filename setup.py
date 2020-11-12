@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-  name = 'topsis-Bibekpreet-101803272', 
-  packages = ['topsis-Bibekpreet-101803272'], 
+  name = 'topsis_Bibekpreet_101803272', 
+  packages = ['topsis_Bibekpreet_101803272'], 
   version = '1.0.0',  
   license='MIT', 
   description = 'Topsis score calculator',
