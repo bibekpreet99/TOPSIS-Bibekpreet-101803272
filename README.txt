@@ -8,5 +8,5 @@ To import :-
 
 1) create a virtual env
 2) use command "from TOPSIS_Bibekpreet_101803272.topsis import Topsis"
-3) data = Topsis(df) # here the df is the dataframe in which all the numerical values of columns are present.
-4) res = data(weights, impact) # here weights and impact are a list
+3) obj = Topsis(df) # here the df is the dataframe in which all the numerical values of columns are present.
+4) res = obj.topsis(weights, impact) # here weights and impact are a list
