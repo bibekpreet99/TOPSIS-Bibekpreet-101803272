@@ -7,6 +7,8 @@ import copy
 class Topsis:
     def __init__(self, data):
         self.data = data
+        self.name = data.iloc[:,:1]
+        self.data = data.iloc[:,1:]
     def topsis(self, weights, impact):
         data2 = copy.deepcopy(self.data)
         rms = 0
@@ -63,7 +65,8 @@ class Topsis:
             
         data2["Topsis Score"] = per_score
         data2["Rank"] = per_rank
-        return data2
+        res = pd.concat([self.name, data2], axis = 1)
+        return res
 
 
 def main():
@@ -110,10 +113,10 @@ python topsis.py <InputDataFile> <Weights> <Impacts> <ResultFileName>''')
         print("columns not appropriate")
         exit()
 
-    topsis = Topsis(new_df)
+    topsis = Topsis(df)
     res = topsis.topsis(weights, impact)
     
-    res.insert(0, "Model", name)
+    # res.insert(0, "Model", name)
 
     out = sys.argv[4]
     res.to_csv(f"./{out}.csv", index = False)
